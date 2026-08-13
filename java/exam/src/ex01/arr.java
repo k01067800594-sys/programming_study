@@ -17,7 +17,7 @@ class Box<T> {
     }
 }
 
-public class GenericMain {//클래스
+class GenericMain {//클래스
     public static void main(String[] args) {// 메인메서드(시작)
         // 문자열
         Box<String> nameBox = new Box<>();

@@ -53,6 +53,7 @@ def inorder(node):
 print("중위순회")
 inorder(root)
 
+# 후위순회:왼->오->루트
 def postorder(node):
     if node is not None:
         postorder(node.left)
